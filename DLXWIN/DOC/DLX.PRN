@@ -1,0 +1,100 @@
+
+ Tabela de Codigo das Instrucoes
+
+ Tipo e Unid Mnemonico Codigo de Operacao                    Registradores Utilizados
+ ----------- --------- ------------------------------------- ------------------------
+ I-TYPE
+   - BPU     BEQZ      000000 Rs1 (Rd=0) Imm                 Rs1=rs1
+             BNEZ      000001 Rs1 (Rd=0) Imm                 Rs1=rs1;
+             JR        000010 Rs1 (Rd=0) (Imm=0)             Rs1=rs1;
+             JALR      000011 Rs1 (Rd=0) (Imm=0)             Rs1=rs1;Rd=R31;
+
+   - LSU     LB        000100 Rs1 Rd Imm                     Rs1=rs1;Rd=rd;
+             LBU       000101 Rs1 Rd Imm                     Rs1=rs1;Rd=rd;
+             SB        000110 Rs1 Rd Imm                     Rs1=rs1;Rs2=rd;
+             LH        000111 Rs1 Rd Imm                     Rs1=rs1;Fd=rd;
+             LHU       001000 Rs1 Rd Imm                     Rs1=rs1;Fd=rd;
+             SH        001001 Rs1 Rd Imm                     Rs1=rs1;Rs2=rd;
+             LW        001010 Rs1 Rd Imm                     Rs1=rs1;Fd=rd;
+             SW        001011 Rs1 Rd Imm                     Rs1=rs1;Rs2=rd;
+             LF        001100 Rs1 Rd Imm                     Rs1=rs1;Fd=rd;
+             LD        001101 Rs1 Rd Imm                     Rs1=rs1;Fd=rd;
+             SF        001110 Rs1 Rd Imm                     Rs1=rs1;Fs1=rd;
+             SD        001111 Rs1 Rd Imm                     Rs1=rs1;Fs1=rd;
+
+   - ALU     ADDI      010000 Rs1 Rd Imm                     Rs1=rs1;Rd=rd;
+             SUBI      010001 Rs1 Rd Imm                     Rs1=rs1;Rd=rd;
+             MULTI     010010 Rs1 Rd Imm                     Rs1=rs1;Rd=rd;
+             DIVI      010011 Rs1 Rd Imm                     Rs1=rs1;Rd=rd;
+             ANDI      010100 Rs1 Rd Imm                     Rs1=rs1;Rd=rd;
+             ORI       010101 Rs1 Rd Imm                     Rs1=rs1;Rd=rd;
+             XORI      010110 Rs1 Rd Imm                     Rs1=rs1;Rd=rd;
+             LHI       010111 (Rs1=0) Rd Imm                 Rd=rd;
+             SLLI      011000 Rs1 Rd Imm                     Rs1=rs1;Rd=rd;
+             SRLI      011001 Rs1 Rd Imm                     Rs1=rs1;Rd=rd;
+             SRAI      011010 Rs1 Rd Imm                     Rs1=rs1;Rd=rd;
+             SLTI      011011 Rs1 Rd Imm                     Rs1=rs1;Rd=rd;
+             SGTI      011100 Rs1 Rd Imm                     Rs1=rs1;Rd=rd;
+             SLEI      011101 Rs1 Rd Imm                     Rs1=rs1;Rd=rd;
+             SGEI      011110 Rs1 Rd Imm                     Rs1=rs1;Rd=rd;
+             SEQI      011111 Rs1 Rd Imm                     Rs1=rs1;Rd=rd;
+             SNEI      100000 Rs1 Rd Imm                     Rs1=rs1;Rd=rd;
+ J-TYPE
+   - BPU     BFPT      111000 Offset                         FP (src)
+             BFPF      111001 Offset                         FP (src)
+             J         111010 Offset                         ...
+             JAL       111011 Offset                         Rd=R31;
+             TRAP      111100 (Offset=system call)           IAR (dst);
+             RFE       111101 (Offset=0)                     ...
+
+ R-TYPE
+   - LSU     MOVI2S    111111 Rs1 (Rs2=0) (Rd=0) 00000010000 IAR (src);Rd=rs1;
+             MOVS2I    111111 Rs1 (Rs2=0) (Rd=0) 00000010001 Rs1=rs1; IAR (dst);
+             MOVF      111111 Rs1 (Rs2=0) Rd     00000010010 Fs1=rs1;Fd=rd;
+             MOVD      111111 Rs1 (Rs2=0) Rd     00000010011 Fs1=rs1;Fd=rd;
+             MOVFP2I   111111 Rs1 (Rs2=0) Rd     00000010100 Fs1=rs1;Rd=rd;
+             MOVI2FP   111111 Rs1 (Rs2=0) Rd     00000010101 Rs1=rs1;Fd=rd;
+
+   - ALU     ADD       111111 Rs1 Rs2 Rd 01001000000         Rs1=rs1;Rs2=rs2;Rd=rd;
+             SUB       111111 Rs1 Rs2 Rd 01001000001         Rs1=rs1;Rs2=rs2;Rd=rd;
+             MULT      111111 Rs1 Rs2 Rd 01001000010         Rs1=rs1;Rs2=rs2;Rd=rd;
+             DIV       111111 Rs1 Rs2 Rd 01001000011         Rs1=rs1;Rs2=rs2;Rd=rd;
+             AND       111111 Rs1 Rs2 Rd 01001000100         Rs1=rs1;Rs2=rs2;Rd=rd;
+             OR        111111 Rs1 Rs2 Rd 01001000101         Rs1=rs1;Rs2=rs2;Rd=rd;
+             XOR       111111 Rs1 Rs2 Rd 01001000110         Rs1=rs1;Rs2=rs2;Rd=rd;
+             SLL       111111 Rs1 Rs2 Rd 01001000111         Rs1=rs1;Rs2=rs2;Rd=rd;
+             SRL       111111 Rs1 Rs2 Rd 01001001000         Rs1=rs1;Rs2=rs2;Rd=rd;
+             SRA       111111 Rs1 Rs2 Rd 01001001001         Rs1=rs1;Rs2=rs2;Rd=rd;
+             SLT       111111 Rs1 Rs2 Rd 01001001010         Rs1=rs1;Rs2=rs2;Rd=rd;
+             SGT       111111 Rs1 Rs2 Rd 01001001011         Rs1=rs1;Rs2=rs2;Rd=rd;
+             SLE       111111 Rs1 Rs2 Rd 01001001100         Rs1=rs1;Rs2=rs2;Rd=rd;
+             SGE       111111 Rs1 Rs2 Rd 01001001101         Rs1=rs1;Rs2=rs2;Rd=rd;
+             SEQ       111111 Rs1 Rs2 Rd 01001001110         Rs1=rs1;Rs2=rs2;Rd=rd;
+             SNE       111111 Rs1 Rs2 Rd 01001001111         Rs1=rs1;Rs2=rs2;Rd=rd;
+
+   - FPU     ADDD      111111 Rs1 Rs2     Rd 10000000000     Fs1=rs1;Fs2=rs2;Fd=rd;
+             ADDF      111111 Rs1 Rs2     Rd 10000000001     Fs1=rs1;Fs2=rs2;Fd=rd;
+             SUBD      111111 Rs1 Rs2     Rd 10000000010     Fs1=rs1;Fs2=rs2;Fd=rd;
+             SUBF      111111 Rs1 Rs2     Rd 10000000011     Fs1=rs1;Fs2=rs2;Fd=rd;
+             MULTD     111111 Rs1 Rs2     Rd 10000000100     Fs1=rs1;Fs2=rs2;Fd=rd;
+             MULTF     111111 Rs1 Rs2     Rd 10000000101     Fs1=rs1;Fs2=rs2;Fd=rd;
+             DIVD      111111 Rs1 Rs2     Rd 10000000110     Fs1=rs1;Fs2=rs2;Fd=rd;
+             DIVF      111111 Rs1 Rs2     Rd 10000000111     Fs1=rs1;Fs2=rs2;Fd=rd;
+             CVTF2D    111111 Rs1 (Rs2=0) Rd 10000001000     Fs1=rs1;Fd=rd;
+             CVTF2I    111111 Rs1 (Rs2=0) Rd 10000001001     Fs1=rs1;Fd=rd;
+             CVTD2F    111111 Rs1 (Rs2=0) Rd 10000001010     Fs1=rs1;Fd=rd;
+             CVTD2I    111111 Rs1 (Rs2=0) Rd 10000001011     Fs1=rs1;Fd=rd;
+             CVTI2F    111111 Rs1 (Rs2=0) Rd 10000001100     Fs1=rs1;Fd=rd;
+             CVTI2D    111111 Rs1 (Rs2=0) Rd 10000001101     Fs1=rs1;Fd=rd;
+             SLTD      111111 Rs1 (Rs2=0) Rd 10000001110     Fs1=rs1;Fs2=rd;FP (dst);
+             SGTD      111111 Rs1 (Rs2=0) Rd 10000001111     Fs1=rs1;Fs2=rd;FP (dst);
+             SLED      111111 Rs1 (Rs2=0) Rd 10000010000     Fs1=rs1;Fs2=rd;FP (dst);
+             SGED      111111 Rs1 (Rs2=0) Rd 10000010001     Fs1=rs1;Fs2=rd;FP (dst);
+             SEQD      111111 Rs1 (Rs2=0) Rd 10000010010     Fs1=rs1;Fs2=rd;FP (dst);
+             SNED      111111 Rs1 (Rs2=0) Rd 10000010011     Fs1=rs1;Fs2=rd;FP (dst);
+             SLTF      111111 Rs1 (Rs2=0) Rd 10000010100     Fs1=rs1;Fs2=rd;FP (dst);
+             SGTF      111111 Rs1 (Rs2=0) Rd 10000010101     Fs1=rs1;Fs2=rd;FP (dst);
+             SLEF      111111 Rs1 (Rs2=0) Rd 10000010110     Fs1=rs1;Fs2=rd;FP (dst);
+             SGEF      111111 Rs1 (Rs2=0) Rd 10000010111     Fs1=rs1;Fs2=rd;FP (dst);
+             SEQF      111111 Rs1 (Rs2=0) Rd 10000011000     Fs1=rs1;Fs2=rd;FP (dst);
+             SNEF      111111 Rs1 (Rs2=0) Rd 10000011001     Fs1=rs1;Fs2=rd;FP (dst);

@@ -1,0 +1,46 @@
+/****************************************************************************
+
+
+dlxwin.rh
+
+produced by Borland Resource Workshop
+
+
+*****************************************************************************/
+
+#define DIALOG_4	4
+#define IDDLG_RUN	101
+#define DIALOG_RUN	101
+#define ICON_1	1
+#define IDICON	100
+#define DIALOG_2	2
+#define DIALOG_1	1
+#define IDDLG_RUNN	100
+#define IDC_NUMTICKS	101
+#define MENU_1	1
+#define IDKEYB	100
+#define IDMENU	100
+#define CM_VIEWREGS	124
+#define CM_VIEWBRANCH_TARGET_BUFFER	117
+#define CM_VIEWREORDER_BUFFER	116
+#define CM_VIEWEXEC_UNITS	115
+#define CM_VIEWVIRTUAL_UNITS	114
+#define CM_VIEWDISPATCH_QUEUE	107
+#define CM_VIEWINSTRUCTION_QUEUE	106
+#define CM_VIEWFPR	123
+#define CM_VIEWGPR	122
+#define CM_VIEWMEMORY	121
+#define CM_VIEWPROGRAM	120
+#define CM_VIEWDISPATCH_STREAM	119
+#define CM_VIEWEXEC_STREAM	118
+#define CM_CPUALPHA	111
+#define CM_DEBUGRESET	113
+#define CM_HELPABOUT	112
+#define CM_CPUPOWERPC	110
+#define CM_CPUPENTIUM	109
+#define CM_CPUESCALAR	108
+#define CM_DEBUGSTEP	105
+#define CM_DEBUGRUNN	103
+#define CM_DEBUGRUN	104
+#define CM_FILEEXIT	102
+#define CM_FILEOPEN	101
