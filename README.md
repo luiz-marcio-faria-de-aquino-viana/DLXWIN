@@ -25,6 +25,7 @@ CONTEÚDO:
 1. COMP - Código Fonte do Compilador Assembler para a Arquitetura DLX.
 2. DLXWIN - Código Fonte do Simulador DLX Windows.
 3. EXAMPLES - Código Fonte dos Programas de Exemplos (Benchmark).
+4. 20221105-Algoritmos_de_Despacho_de_Instrucoes_em_Maquinas_Super_Escalares.pdf - Documentação do Projeto de Graduação.
 
 Referência: Computer Architecture a Quantitative Approach - John L. Hennessy and David A. Patterson.
 https://en.wikipedia.org/wiki/DLX
