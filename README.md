@@ -27,7 +27,8 @@ CONTEÚDO:
 3. DLXWIN - Código Fonte do Simulador DLX Windows.
 4. EXAMPLES - Código Fonte dos Programas de Exemplos (Benchmark).
 5. 20221105-Algoritmos_de_Despacho_de_Instrucoes_em_Maquinas_Super_Escalares.pdf - Documentação do Projeto de Graduação.
-6. 
+
+6. CERTIFICADO-PESQ_ACAD_ENGE_MBA_MSC_DSC_POSDSC_5120220032231677759828256.pdf
 Certificado de Registro de Programa de Computador - Processo No: BR512022003223-6
 Título: Pesq.Acad.Eng.,MBA,M.Sc./D.Sc.,Pós-D.Sc.-Luiz Marcio F. A. Viana-Rg: 2000103581 CREARJ
 Autor(es): LUIZ MARCIO FARIA DE AQUINO VIANA
