@@ -6,7 +6,6 @@ UERJ – Universidade do Estado do Rio de Janeiro
 Projeto de Graduação em Engenharia Elétrica com Ênfase em Engenharia de Sistemas e Computação (UERJ em 1997).
 
 Resumo do Trabalho de Conclusão do Curso:
-
 "Algoritmos de Despacho de Instruções em Máquinas Super Escalares"
 
 Neste trabalho foi desenvolvido o SIMULADOR DLXWIN, um COMPILADOR ASSEMBLER - DLX, e foram simulados os algoritmos de despacho de instruções do Pentium, PowerPC e Alpha Digital.
@@ -35,6 +34,16 @@ Autor(es): LUIZ MARCIO FARIA DE AQUINO VIANA
 
 Referência: Computer Architecture a Quantitative Approach - John L. Hennessy and David A. Patterson.
 https://en.wikipedia.org/wiki/DLX
+
+===
+
+O desenvolvimento de Simuladores é fundamental na análise de desempenho de processadores, sendo muito utilizado pela indústria e na área de pesquisa.
+
+DIFERENÇA ENTRE SIMULADOR x EMULADOR
+
+Emuladores: São máquinas virtuais que executam programas desenvolvidos para um outro modelo de processador e/ou sistema operacional.
+
+Simuladores: São máquinas virtuais que simulam o comportamento de cada unidade de processamento dos processadores na execução de um programa, permitindo que sejam realizadas análises do comportamento de cada unidade de processamento, para propor alterações na arquitetura do processador com objetivo de melhorar o desempenho, reduzir o consumo de potência, e etc.
 
 ===
 
