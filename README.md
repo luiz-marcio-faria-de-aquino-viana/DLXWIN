@@ -19,3 +19,11 @@ Tecnologias: Borland C/C++ 4.5 com OWL2.0
 IMPORTANTE:
 
 Após a apresentação deste Projeto de Graduação, fui convidado pelos professores, Eliseu Chaves, D.Sc, Cristiana Bentes, D.Sc. e Orlando Bernardo Filho, D.Sc., a participar do Curso de Mestrado na área de Arquitetura de Computadores e Sistemas Operacionais da COPPE/UFRJ.
+
+CONTEÚDO:
+
+1. COMP - Código Fonte do Compilador Assembler para a Arquitetura DLX.
+Referência: Computer Architecture a Quantitative Approach - John L. Hennessy and David A. Patterson.
+https://en.wikipedia.org/wiki/DLX
+
+2. 
