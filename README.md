@@ -34,6 +34,10 @@ CONTEÚDO:
 - Título: Pesq.Acad.Eng.,MBA,M.Sc./D.Sc.,Pós-D.Sc.-Luiz Marcio F. A. Viana-Rg: 2000103581 CREARJ
 - Autor(es): LUIZ MARCIO FARIA DE AQUINO VIANA
 
+7. 20201022_064237.jpg - Foto da Caixa de Borland C/C++ 4.5 e 5.0 Educacional, ao lado de um AutoCAD R13 Educacional.
+- Ambos os softwares foram adquiridos por mim da empresa PARS / SONDA em 1995.
+- Sócios da PARS: Pedro Antônio Ribeiro da Silva, e Conrado Magalhães de Oliveira.
+
 Referência: Computer Architecture a Quantitative Approach - John L. Hennessy and David A. Patterson.
 https://en.wikipedia.org/wiki/DLX
 
