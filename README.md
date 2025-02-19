@@ -22,10 +22,19 @@ Após a apresentação deste Projeto de Graduação, fui convidado pelos profess
 
 CONTEÚDO:
 
-1. COMP - Código Fonte do Compilador Assembler para a Arquitetura DLX.
-2. DLXWIN - Código Fonte do Simulador DLX Windows.
-3. EXAMPLES - Código Fonte dos Programas de Exemplos (Benchmark).
-4. 20221105-Algoritmos_de_Despacho_de_Instrucoes_em_Maquinas_Super_Escalares.pdf - Documentação do Projeto de Graduação.
+1. AULA - Apresentação do Projeto em um Formato Antigo do PowerPoint (PPT), e Imagens do Simulador (BMP).
+2. COMP - Código Fonte do Compilador Assembler para a Arquitetura DLX.
+3. DLXWIN - Código Fonte do Simulador DLX Windows.
+4. EXAMPLES - Código Fonte dos Programas de Exemplos (Benchmark).
+5. 20221105-Algoritmos_de_Despacho_de_Instrucoes_em_Maquinas_Super_Escalares.pdf - Documentação do Projeto de Graduação.
+6. 
+Certificado de Registro de Programa de Computador - Processo No: BR512022003223-6
+Título: Pesq.Acad.Eng.,MBA,M.Sc./D.Sc.,Pós-D.Sc.-Luiz Marcio F. A. Viana-Rg: 2000103581 CREARJ
+Autor(es): LUIZ MARCIO FARIA DE AQUINO VIANA
 
 Referência: Computer Architecture a Quantitative Approach - John L. Hennessy and David A. Patterson.
 https://en.wikipedia.org/wiki/DLX
+
+===
+
+Nota de Falecimento do Professor Orlando Bernardo Filho, D.Sc., Coordenador do DESC - Departamento de Engenharia de Sistemas e Computação da UERJ (em 17/10/2019). http://www.eng.uerj.br/noticias/1571370611-Nota+de+Falecimento+Prof+Orlando+Bernardo+Filho
